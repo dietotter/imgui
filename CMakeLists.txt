@@ -17,4 +17,4 @@ set(IMGUI_SRCS
 
 add_library(imgui STATIC ${IMGUI_SRCS} ${IMGUI_HEADERS})
 
-#target_include_directories(imgui PUBLIC .)
+target_include_directories(imgui PUBLIC .)
